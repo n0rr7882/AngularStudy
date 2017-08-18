@@ -1,0 +1,23 @@
+.title {
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    padding: 46px 26px 26px 16px;
+    color: white;
+    font-weight: normal;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: normal;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+app-todo {
+    border-bottom: 1px solid #cccccc;
+}
+
+app-add-todo {
+    border-bottom: 1px solid #cccccc;
+}

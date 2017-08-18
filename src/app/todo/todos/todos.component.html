@@ -1,0 +1,12 @@
+<div class="title">
+  <h1>ToDo</h1>
+  <h2>{{ today | date: 'M월 d일' }}</h2>
+</div>
+<div>
+  <div *ngFor="let todo of todos" (click)="toggleTodo(todo)">
+    <app-todo [todo]="todo"></app-todo>
+  </div>
+</div>
+<div>
+  <app-add-todo (onTodoAdded)="addTodo($event)"></app-add-todo>
+</div>
